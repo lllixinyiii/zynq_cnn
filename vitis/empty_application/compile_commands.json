@@ -1,0 +1,7 @@
+[
+{
+  "directory": "E:/project/vivado/Zynq/test_accelarator/vitis/empty_application/build",
+  "command": "D:\\Xilinx\\Vitis\\2024.2\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -isystem E:/project/vivado/Zynq/test_accelarator/vitis/platform/export/platform/sw/standalone_ps7_cortexa9_0/include -isystem D:/Xilinx/Vitis/2024.2/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.3.0/include -isystem D:/Xilinx/Vitis/2024.2/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.3.0/include-fixed -isystem D:/Xilinx/Vitis/2024.2/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -O2 -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=E:/project/vivado/Zynq/test_accelarator/vitis/platform/export/platform/sw/standalone_ps7_cortexa9_0/Xilinx.spec -IE:/project/vivado/Zynq/test_accelarator/vitis/platform/export/platform/sw/standalone_ps7_cortexa9_0/include -Wall -Wextra      -O0  -g3     -U__clang__ \"-D__FILENAME__='__FILE__'\" -o CMakeFiles\\empty_application.elf.dir\\main.c.obj -c E:\\project\\vivado\\Zynq\\test_accelarator\\vitis\\empty_application\\src\\main.c",
+  "file": "E:\\project\\vivado\\Zynq\\test_accelarator\\vitis\\empty_application\\src\\main.c"
+}
+]
