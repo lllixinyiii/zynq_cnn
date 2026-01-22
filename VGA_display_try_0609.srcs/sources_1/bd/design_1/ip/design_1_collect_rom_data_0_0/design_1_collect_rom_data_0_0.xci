@@ -1,0 +1,53 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "design_1_collect_rom_data_0_0",
+    "cell_name": "collect_rom_data_0",
+    "component_reference": "xilinx.com:module_ref:collect_rom_data:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../../../VGA_display_try_0609.gen/sources_1/bd/design_1/ip/design_1_collect_rom_data_0_0",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "design_1_collect_rom_data_0_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq" } ],
+        "BASE_BOARD_PART": [ { "value": "avnet.com:zedboard:part0:1.4" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7z020" } ],
+        "PACKAGE": [ { "value": "clg484" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../VGA_display_try_0609.gen/sources_1/bd/design_1/ip/design_1_collect_rom_data_0_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "digit_0_rom_data": [ { "direction": "in" } ],
+        "digit_1_rom_data": [ { "direction": "in" } ],
+        "digit_2_rom_data": [ { "direction": "in" } ],
+        "digit_3_rom_data": [ { "direction": "in" } ],
+        "digit_4_rom_data": [ { "direction": "in" } ],
+        "digit_5_rom_data": [ { "direction": "in" } ],
+        "digit_6_rom_data": [ { "direction": "in" } ],
+        "digit_7_rom_data": [ { "direction": "in" } ],
+        "digit_8_rom_data": [ { "direction": "in" } ],
+        "digit_9_rom_data": [ { "direction": "in" } ],
+        "rom_data_collect": [ { "direction": "out", "size_left": "9", "size_right": "0" } ]
+      }
+    }
+  }
+}
